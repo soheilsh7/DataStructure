@@ -1,16 +1,26 @@
 #include <iostream>
 using namespace std;
 
+class node{
+    int data;
+    node *next;
+};
+
+
+class LinkedList{
+    LinkedList();
+    ~LinkedList();
+public:
+    void addnode();
+    void delnode();
+    void display();
+
+private:
+    node *first;
+    node *last;
+};
+
 int main() {
-    class linklis
-    {
-        public:
-        linklist;
-        ~linklist;
-        void addnode();
-        void delnode(int &);
-        void display;
-    };    
-        
+
     return 0;
 }
